@@ -1271,7 +1271,7 @@ const config = {
               cacheCompression: false,
               cacheDirectory:
                 "/Users/yan/git/rspack-vue/node_modules/.cache/babel-loader",
-              cacheIdentifier: "3dc8e954",
+              cacheIdentifier: "160ea520",
             },
           },
         ],
@@ -1435,7 +1435,7 @@ const config = {
       cwd: "/Users/yan/git/rspack-vue",
       cache: true,
       cacheLocation:
-        "/Users/yan/git/rspack-vue/node_modules/.cache/eslint/5763f550.json",
+        "/Users/yan/git/rspack-vue/node_modules/.cache/eslint/5bdbed5b.json",
       context: "/Users/yan/git/rspack-vue",
       failOnWarning: false,
       failOnError: true,
@@ -1449,7 +1449,7 @@ const config = {
           vue: {
             enabled: true,
             compiler:
-              "/Users/yan/git/rspack-vue/node_modules/vue/compiler-sfc/index.js",
+              "/Users/yan/git/rspack-vue/node_modules/vue-template-compiler/index.js",
           },
         },
         diagnosticOptions: {
@@ -1464,4 +1464,4 @@ const config = {
   },
 };
 
-module.exports = config;
+console.log(config);

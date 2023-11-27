@@ -103,9 +103,14 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Prop, Vue } from 'vue-property-decorator';
+import UtilDemo from './UtilDemo.vue';
 
-@Component
+const yanhaijing444 = 'yanhaijing444';
+
+@Component({
+  mixins: [UtilDemo],
+})
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
 }

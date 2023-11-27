@@ -1,0 +1,7 @@
+{
+  "name": "rspack-vue",
+  "version": "1.0.0",
+  "description": "vue-cli vue2.6 的 rspack 版本",
+  "author": "yanxf",
+  "license": "MIT"
+}
